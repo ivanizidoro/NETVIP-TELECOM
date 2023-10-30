@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #fffffffb;
+    height: 1080px;
+}
+
+/* topo area assinante*/
+
+header button{
+    position: absolute;
+    right: 50px;
+    top: 20px;
+    border-radius: 10px;
+    width: 180px;
+    height: 30px;
+    color: #07080a;
+    border: none;
+    text-decoration: none;
+    background: #faf7f7;
+}
+
+header div{
+    background: #f57b34;
+    height: 70px;
+}
+
+
+div{
+    top:40px;
+    left: auto;
+}
+
+div .topo-1{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+div .topo-2{
+    text-transform: uppercase;
+    color: #fefeff;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+div .topo-3{
+    text-decoration: none;
+}
+
+/* menu-logo */
+
+header .logo {
+    width: 170px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+nav {
+    position: absolute;
+    top: 90px;
+    right: 50px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 0 0 15px;    
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+/* corpo site */
+
+.plano{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.plano h2{
+    font-size: 30px;
+    color: #6e6e6e;
+    font-weight: 300;
+}
+
+.plano h1{
+    font-size: 50px;
+    color: #6e6e6e;
+}
+
+.plano p {
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+.plano-1{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.fibra{
+    background-color: #f57b34;
+}
+
+.fibra h1{
+    display: block;
+    position: absolute;
+    top: 590px;
+    left: 980px;
+    color: #faf7f7;
+    font-weight: 200;
+}
+
+.fibra h2{
+    position: absolute;
+    top: 630px;
+    left: 980px;
+    color: #faf7f7;
+    font-size: 40px
+}
+
+.fibra p{
+    position: absolute;
+    margin-right: 500px;
+    width: 500px;
+    top: 730px;
+    left: 980px;
+    text-align: justify;
+    color: #faf7f7;
+}
+
+.fibra img{
+    margin-left: 240px;
+    margin-top: 40px;
+}
+
+.duvida{
+    text-align: center;
+}
+
+/* final site*/
+footer{
+    text-align: center;
+    background-color: #f57b34;
+    color: #faf7f7;
+}
+
+footer a{
+    text-decoration: none;
+    color: #faf7f7;
+}
