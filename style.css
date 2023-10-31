@@ -12,7 +12,7 @@ body{
 
 header .logo-1{
     background-image: url("./img/09-1024x479.png");
-    min-width: 60vh;
+    min-width: 50vh;
     min-height: 50vh;
 }
 
