@@ -8,7 +8,6 @@
 body{
     background: #fffffffb;
     height: 100vh;
-    display: ;
 }
 
 /* topo area assinante*/
@@ -30,7 +29,6 @@ header div{
     background: #f57b34;
     height: 70px;
 }
-
 
 div{
     top:40px;
@@ -123,15 +121,16 @@ section.fibra{
 section.fibra .flex{
     align-items: center;
     justify-content: center;
-    gap: 90px;
+    margin-top: 30px;
     display: flex;
+    gap: 100px;
 }
 
 .fibra h1{
     color: #fff;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 40px;
-    font-weight: 300;
+    font-weight: 200;
 }
 
 .fibra h2{
