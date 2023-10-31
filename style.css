@@ -8,6 +8,7 @@
 body{
     background: #fffffffb;
     height: 100vh;
+    display: ;
 }
 
 /* topo area assinante*/
@@ -112,41 +113,45 @@ nav a {
     align-items: center;
 }
 
-.fibra{
-    background-color: #f57b34;
+/* fibra */
+
+section.fibra{
+    padding: 30px 14%;
+    background: #f57b34;
+}
+
+section.fibra .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    display: flex;
 }
 
 .fibra h1{
-    display: block;
-    position: absolute;
-    top: 590px;
-    left: 980px;
-    color: #faf7f7;
-    font-weight: 200;
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 300;
 }
 
 .fibra h2{
-    position: absolute;
-    top: 630px;
-    left: 980px;
-    color: #faf7f7;
-    font-size: 40px
+    color: #fff;
+    font-size: 42px;
+    line-height: 40px;
 }
 
-.fibra p{
-    position: absolute;
-    margin-right: 500px;
-    width: 500px;
-    top: 730px;
-    left: 980px;
+.fibra .txt-fibra p{
+    color: #fff;
+    margin: 30px 0;
     text-align: justify;
-    color: #faf7f7;
+    width: 500px;
 }
 
-.fibra img{
-    margin-left: 240px;
-    margin-top: 40px;
+.fibra .img-fibra img{
+    position: relative;
 }
+
+/* duvida */
 
 .duvida{
     text-align: center;
