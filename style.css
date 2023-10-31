@@ -12,8 +12,8 @@ body{
 
 header .logo-1{
     background-image: url("./img/09-1024x479.png");
-    width: 1890px;
-    height: 500px;
+    min-width: 100vh;
+    min-height: 40vh;
 }
 
 /* topo area assinante*/
