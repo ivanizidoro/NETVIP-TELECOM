@@ -7,6 +7,7 @@
 
 body{
     background: #fffffffb;
+    min-height: 100vh;
 }
 
 /* topo area assinante*/
