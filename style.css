@@ -7,7 +7,7 @@
 
 body{
     background: #fffffffb;
-    height: 1080px;
+    height: 100vh;
 }
 
 /* topo area assinante*/
@@ -106,6 +106,10 @@ nav a {
 .plano-1{
     text-align: center;
     margin-top: 40px;
+}
+
+.fibra{
+    align-items: center;
 }
 
 .fibra{
