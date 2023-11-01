@@ -14,8 +14,7 @@ header .logo-1{
     background-image: url("./img/internet.png");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    height: 980px;
+    height: 80vh;
 }
 
 /* topo area assinante*/
@@ -27,10 +26,11 @@ header button{
     border-radius: 10px;
     width: 180px;
     height: 30px;
-    color: #07080a;
+    color: #000000;
     border: none;
     text-decoration: none;
     background: #faf7f7;
+    font-weight: 500;
 }
 
 header .topo{
