@@ -10,13 +10,6 @@ body{
     min-height: 100vh;
 }
 
-header .logo-1{
-    background-image: url("./img/internet.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 90vh;
-}
-
 /* topo area assinante*/
 
 header button{
@@ -61,12 +54,18 @@ div .topo-3{
     text-decoration: none;
 }
 
+.internet{
+    display: flex;
+    width: 100%;
+}
+
 /* menu-logo */
 
 header .logo {
     width: 170px;
     margin-left: 50px;
-    margin-top: 10px;
+    top: 90px;
+    position: absolute;
 }
 
 nav {
@@ -93,7 +92,7 @@ nav a {
 
 .plano{
     text-align: center;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .plano h2{
