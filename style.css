@@ -3,10 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
 }
 
 body{
-    background: #fffffffb;
     min-height: 100vh;
 }
 
@@ -97,7 +97,7 @@ nav a {
     flex-wrap: wrap;
     margin-left: 16%;
     margin-top: 4%;
-    margin-bottom: 7%;
+    margin-bottom: 0%;
 }
 
 .pricing span{
@@ -125,10 +125,10 @@ nav a {
 
 .plano{
     text-align: center;
-    margin-top: 50px;
+    padding: 2%;
 }
 
-.plano h2{
+.pricing .plano h2{
     font-size: 60px;
     font-weight: bolder;
     color: #6e6e6e;
@@ -141,16 +141,12 @@ nav a {
     font-weight: 600;
 }
 
-.plano p {
-    margin-top: 20px;
-    font-weight: 300;
-}
-
 .pricing .plano-1{
     text-align: center;
     padding: 2rem;
     background: linear-gradient(130deg, #f57b34 50%, transparent 90%);
     border-radius: 15%;
+    margin-bottom: 10%;
 }
 
 .pricing .plano-1 h3{
@@ -228,6 +224,61 @@ section.fibra .flex{
 
 .duvida{
     text-align: center;
+    margin-top: 50px;
+}
+
+.duvida h1{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.duvida h2{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.duvida-1{
+    text-align: center;
+}
+
+.duvida-1 .duvida-2{
+    display: inline-block;
+    margin: 50px 7%;
+    font-size: 30px;
+}
+
+section .duvida-1 .duvida-2 div i{
+    font-size: 100px;
+    color: #f57b34;
+}
+
+.duvida-1 .duvida-2 .contato{
+    background: #dad8d854;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    list-style: none;
+}
+
+section .duvida-1 .duvida-2 a{
+    color: #0c0c0c83;
+    font-weight: 700;
+}
+
+.local{
+    background: #f57b34;
+    margin-bottom: 30px;
+}
+
+section .geral{
+    text-align: center;
+    margin-right: auto;
+}
+
+
+section .geral iframe{
+    width: 300px;
+    height: 300px;
 }
 
 /* final site*/
