@@ -132,6 +132,11 @@ nav a {
     color:#ff0505;
 }
 
+button:hover {
+    box-shadow: 0px 0px 8px #f57b34;
+    transform: scale(1.05);
+}
+
 .plano{
     text-align: center;
     padding: 2%;
