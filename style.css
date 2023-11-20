@@ -19,10 +19,6 @@ df-messenger {
     --df-messenger-user-message: #f57b34;
    }
 
-   df-messenger.chat-title{
-    color: #000000;
-   }
-
 /* topo area assinante*/
 
 header button{
@@ -278,6 +274,8 @@ section .duvida-1 .duvida-2 a{
     font-weight: 700;
 }
 
+/* Localização */
+
 .local{
     background: #f57b34;
     margin-bottom: 30px;
@@ -288,9 +286,12 @@ section .geral{
     margin-right: auto;
 }
 
+section .geral h1{
+    color: #f1ecec;
+}
 
 section .geral iframe{
-    width: 300px;
+    width: 97vw;
     height: 300px;
 }
 
